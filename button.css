@@ -1,0 +1,58 @@
+.button_signup{
+    width: 152px;
+    height: 44px;
+    margin: 3px 15.5px 3px 161.5px;
+    padding: 0 0.5px 0 0;
+    border-radius: 8px;
+    border: solid 1px #00c0f5;
+    background-color: #fff;
+  }
+
+  .Sign-inSign-up {
+    width: 106px;
+    height: 20px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00c0f5;
+  }
+
+  .primary-button {
+    width: 150px;
+    height: 44px;
+    margin: 3px 0 3px 15.5px;
+    padding: 13px 20px;
+    border-radius: 8px;
+    background-color: #00c0f5;
+    border-style: hidden;
+    display: inline-flex;
+    align-items: center;
+     
+  }
+
+
+
+
+  .Create-Ad {
+    width: 66px;
+    height: 18px;
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+
+img.plus {
+    width: 14px;
+    height: 14px;
+    margin: 2px 8px 2px 0;
+    object-fit: contain;
+  }
