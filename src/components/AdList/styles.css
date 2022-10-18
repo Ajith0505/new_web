@@ -1,0 +1,14 @@
+.adlist-main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 219, 219);
+}
+
+.ads-container{
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}

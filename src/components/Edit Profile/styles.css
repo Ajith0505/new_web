@@ -1,0 +1,225 @@
+.side-drawer {
+    /* In commentaries are the way to make it slide from left to right */
+    position: absolute;
+    height: 100%;
+    background: white;
+    top: 79px;
+    right: 0;
+    /* right: 100%; */
+    width: 30%;
+    height: 900px;
+    z-index: 200;
+    /* box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5); */
+    transform: translateX(100%);
+    /* transform: translateX(0%); */
+    transition: transform 0.3s ease-out;
+
+}
+
+.side-drawer.open {
+    transform: translateX(0);
+    /* transform: translateX(100%); */
+}
+
+
+.backdrop {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    top: 79px;
+    right: 0;
+}
+
+.drawer-background {
+    width: 100%;
+    height: auto;
+}
+
+.sidedrawer-heading {
+    position: absolute;
+    top: 20px;
+    left: 28px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.profile-cross {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.2;
+
+    background-color: #fff;
+}
+
+.profile-img-cross {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+
+}
+
+.sample {
+    position: absolute;
+    top: 19px;
+    right: 28px;
+    background-color: black;
+    width: 32px;
+    height: 32px;
+    padding-left: 5px;
+    border-radius: 50%;
+    align-items: center;
+    opacity: 0.6;
+    background-color:grey;
+
+}
+
+.sample-pro-img {
+    width: 21px;
+    height: 21px;
+    margin-top: 5px;
+}
+
+.profile-image3x {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    /* right: 35%; */
+    top: 15%;
+}
+
+.sidedrawer-bottom {
+    position: absolute;
+    top: 53%;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.edit-form {
+    position: absolute;
+    top: 30%;
+    height: 1000px;
+    width: 100%;
+
+}
+
+.edit-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.add-image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.image-button {
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    border-style: hidden;
+    background-color: transparent;
+    top: 65%;
+    right: 37%;
+}
+
+.edit-profile-fields {
+    width: 319px;
+    height: 60px;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    border: solid 1px #bbb;
+    background-color: #fff;
+}
+
+.edit-form-fields {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-fields-form{
+    border-style: hidden;
+}
+
+.legend-terms{
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.19px;
+    color: #999;
+}
+
+.field-input-area{
+    width: 319px;
+    height: 150px;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    border: solid 1px #bbb;
+    background-color: #fff;
+}
+
+.input-fields-form-address{
+    height: 110px;
+    border-style: hidden;
+}
+.cancel-edit-profile{
+    width: 152px;
+    height: 44px;
+    margin: 0 16px 0 0;
+    padding: 13px 50px 11px 52px;
+    border-radius: 8px;
+    border: solid 1px #00c0f5;
+    background-color: #fff;
+}
+
+.save-edit-profile{
+    width: 152px;
+    height: 44px;
+    margin: 0 0 0 16px;
+    padding: 13px 58px 11px;
+    border-radius: 8px;
+    background-color: #00c0f5;
+    border-style: hidden;
+  }
+
+.cancel-edit{
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00c0f5;
+}
+
+.edit-pro-save{
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
